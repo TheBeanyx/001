@@ -1,0 +1,203 @@
+
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hadművelet: Véletlen</title>
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;background:#171717;color:#222;
+ font-family:'Comic Sans MS',Arial,sans-serif;
+ display:flex;align-items:center;justify-content:center;
+ min-height:100vh;padding:15px;
+}
+.presentation{
+ width:900px;max-width:100%;height:570px;
+ background:#fffdf5;border-radius:8px;
+ box-shadow:0 20px 70px #0009;
+ position:relative;overflow:hidden;
+}
+.slide{
+ display:none;padding:65px 75px;height:100%;
+ position:relative;
+ animation:appear .35s ease;
+}
+.slide.active{display:block}
+@keyframes appear{
+ from{opacity:0;transform:translateX(20px)}
+ to{opacity:1;transform:translateX(0)}
+}
+h1{font-size:46px;margin:20px 0}
+h2{font-size:35px;margin:15px 0 30px}
+p{font-size:22px;line-height:1.6}
+.small{font-size:14px;color:#888;letter-spacing:3px}
+.red{color:#e32636;font-weight:bold}
+.underline{
+ text-decoration:underline;
+ text-decoration-color:#e32636;
+ text-decoration-thickness:4px;
+}
+.circle{
+ border:3px solid #e32636;border-radius:50%;
+ padding:4px 12px;display:inline-block;
+ transform:rotate(-4deg);
+}
+.arrow{color:#e32636;font-size:32px}
+.note{
+ position:absolute;color:#e32636;
+ font-size:20px;font-style:italic;
+ transform:rotate(-8deg);
+}
+.line{
+ height:3px;background:#e32636;width:150px;
+ transform:rotate(-3deg);margin:15px 0;
+}
+.controls{
+ position:absolute;bottom:0;left:0;width:100%;
+ display:flex;justify-content:space-between;
+ align-items:center;padding:15px 25px;
+ background:#f1eee5;border-top:1px solid #ddd;
+}
+button{
+ background:#222;color:white;border:0;
+ padding:12px 24px;border-radius:5px;
+ cursor:pointer;font-size:15px;
+}
+button:hover{background:#e32636}
+#counter{color:#777;font-size:14px}
+.stamp{
+ border:4px solid #e32636;color:#e32636;
+ display:inline-block;padding:8px 15px;
+ transform:rotate(-10deg);font-weight:bold;
+ font-size:22px;
+}
+</style>
+</head>
+<body>
+
+<div class="presentation">
+
+<!-- DIA 1 -->
+<section class="slide active">
+ <div class="small">SZIGORÚAN BIZALMAS • 001</div>
+ <h1>HADMŰVELET:<br>
+ <span class="red">VÉLETLEN</span></h1>
+ <p>Egy stratégiai terv egy bizonyos személy<br>
+ társaságba történő bevonására.</p>
+ <br>
+ <div class="stamp">TITKOS TERV</div>
+ <div class="note" style="right:70px;bottom:100px">
+  Ezt figyeld... →
+ </div>
+</section>
+
+<!-- DIA 2 -->
+<section class="slide">
+ <div class="small">02 / ELŐKÉSZÜLETEK</div>
+ <h2>Első lépés</h2>
+ <p>Létrehozunk egy <span class="circle">csoportot</span>.</p>
+ <p>Ebben megbeszéljük, hogy hozzáadunk egy
+ <span class="red">random embert</span>.</p>
+ <p>Fontos: mindenki úgy tesz, mintha ez egy
+ teljesen hétköznapi ötlet lenne.</p>
+ <div class="note" style="right:75px;bottom:100px">
+  Nagyon fontos rész!!
+ </div>
+</section>
+
+<!-- DIA 3 -->
+<section class="slide">
+ <div class="small">03 / A KULCSMOZZANAT</div>
+ <h2>A nagy pillanat</h2>
+ <p>Én ezután <span class="red underline">véletlenül</span>
+ hozzáadom <span class="circle">ŐT</span> a csoporthoz.</p>
+ <p>És itt jön a terv legfontosabb része...</p>
+ <h1 class="red">A VÉLETLEN.</h1>
+ <div class="note" style="right:65px;bottom:95px">
+  Hoppá... 🤷
+ </div>
+</section>
+
+<!-- DIA 4 -->
+<section class="slide">
+ <div class="small">04 / KÁRELHÁRÍTÁS</div>
+ <h2>A hivatalos magyarázat</h2>
+ <p>„Jaj, bocsi, <span class="red underline">
+ véletlenül</span> adtalak hozzá!”</p>
+ <p>Semmi pánik. Nyugodt viselkedés.
+ Mintha tényleg csak egy hiba lett volna.</p>
+ <div class="line"></div>
+ <div class="note" style="right:80px;bottom:110px">
+  Profi kivitelezés.
+ </div>
+</section>
+
+<!-- DIA 5 -->
+<section class="slide">
+ <div class="small">05 / A FORDULAT</div>
+ <h2>És akkor...</h2>
+ <p>„Viszont ha már úgyis itt vagy...</p>
+ <p>és amúgy is <span class="circle">emberhiányban</span>
+ vagyunk...</p>
+ <h1 class="red">MIÉRT NEM MARADSZ? 👀</h1>
+ <div class="note" style="right:70px;bottom:75px">
+  EZ AZ! →
+ </div>
+</section>
+
+<!-- DIA 6 -->
+<section class="slide">
+ <div class="small">06 / VÉGEREDMÉNY</div>
+ <h2>A küldetés célja</h2>
+ <p>Nem volt véletlenül rossz helyen.</p>
+ <p>Nem volt semmi baj azzal, hogy bekerült.</p>
+ <p>Egyszerűen csak szeretnénk, ha
+ <span class="red underline">maradna velünk.</span></p>
+ <br>
+ <div class="stamp">CSATLAKOZZ HOZZÁNK!</div>
+</section>
+
+<!-- DIA 7 -->
+<section class="slide">
+ <div class="small">UTOLSÓ DIA • DÖNTÉS</div>
+ <h1>Na, akkor...</h1>
+ <h2 class="red">MIT SZÓLSZ? ❤️</h2>
+ <p>Mi örülnénk neked!</p>
+ <p style="font-size:17px;color:#888">
+  *A véletlen teljesen véletlen volt. Vagy mégsem.*
+ </p>
+ <div style="text-align:center;margin-top:35px">
+  <div class="stamp">VÁR A CSAPAT!</div>
+ </div>
+</section>
+
+<div class="controls">
+ <button onclick="change(-1)">← Előző</button>
+ <span id="counter">1 / 7</span>
+ <button onclick="change(1)">Következő →</button>
+</div>
+</div>
+
+<script>
+let current=0;
+const slides=document.querySelectorAll('.slide');
+
+function change(direction){
+ slides[current].classList.remove('active');
+ current=Math.max(0,Math.min(slides.length-1,current+direction));
+ slides[current].classList.add('active');
+ document.getElementById('counter').textContent=
+ (current+1)+' / '+slides.length;
+}
+
+document.addEventListener('keydown',e=>{
+ if(e.key==='ArrowRight')change(1);
+ if(e.key==='ArrowLeft')change(-1);
+});
+</script>
+
+</body>
+</html>
